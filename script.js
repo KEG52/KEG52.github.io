@@ -55,3 +55,18 @@ menuItems.forEach(item => {
 document.querySelector('.content__close').addEventListener('click', () => {
   header.classList.remove('fade-out');
 });
+document.addEventListener('DOMContentLoaded', () => {
+  const prevBtn = document.querySelector('.carousel__nav.prev');
+  const nextBtn = document.querySelector('.carousel__nav.next');
+  const track = document.querySelector('.carousel__track');
+
+  const cardWidth = track.querySelector('.carousel__card').offsetWidth + 24; // card width + gap
+
+  prevBtn.addEventListener('click', () => {
+    track.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+  });
+
+  nextBtn.addEventListener('click', () => {
+    track.scrollBy({ left: cardWidth, behavior: 'smooth' });
+  });
+});
