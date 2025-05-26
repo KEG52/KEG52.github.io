@@ -118,7 +118,8 @@
     const blobMapping = {
         0: 2, // Certifications → blob3
         1: 5, // Experience → blob1
-        2: 4  // Projects → blob2
+        2: 4,  // Projects → blob2
+        3: 1
     };
 
     DOM.svg = document.querySelector('svg.scene');
