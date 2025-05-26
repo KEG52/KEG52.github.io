@@ -2,7 +2,7 @@
   --bg: #fff8f0;
   --text: #333;
   --accent: #ff6f61;
-  --muted: #888;
+  --muted: #888;  
   --card: #ffe5b4;
 }
 * {
@@ -205,3 +205,7 @@ header h1 {
 
 
 
+body.fade-out {
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
+}
