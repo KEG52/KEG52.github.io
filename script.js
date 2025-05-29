@@ -1,3 +1,6 @@
+
+
+
 const cards = document.querySelectorAll('.card');
 
 cards.forEach(card => {
@@ -70,3 +73,5 @@ document.addEventListener('DOMContentLoaded', () => {
     track.scrollBy({ left: cardWidth, behavior: 'smooth' });
   });
 });
+
+

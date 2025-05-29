@@ -1,0 +1,12 @@
+Downloading kali linux image on to the raspberry pi via sd card
+
+used pi loader to flash the sd card
+
+im going to be using rustdesk to remote acess the raspberry pi so i can work on it on my pc with use of a monitor
+
+got the sd card to finally flash
+
+just encountered a black screen on first bootup
+
+
+

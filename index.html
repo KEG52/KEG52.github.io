@@ -160,6 +160,37 @@
 				<div class="content__inner">
 					<h2 class="content__title">Certifications</h2>
 					<h3 class="content__subtitle">The rapid handle injects into the bashful lift.</h3>
+
+					<div class="certifications">
+						<div class="cert-card" onclick="openCertModal('cert1')">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg" alt="Oracle Badge">
+							<h3>OCI Foundations</h3>
+						</div>
+						<div id="cert1" class="modal">
+							<div class="modal-content">
+								<span class="close" onclick="closeCertModal('cert1')">&times;</span>
+								<h2>Orcale Cloud Infrastructure 2025 Certified Foundations Associate</h2>
+								<img src="/imgs/oracle.jpg" alt="OCI CERT" style="width: 100%; border-radius: 8px; margin-top: 1rem;">
+								<p>Issued by Oracle in January 2025</p>
+								<a href="https://example.com/verify" target="_blank">Verify Credential</a>
+							</div>
+						</div>
+
+						<div class="cert-card" onclick="openCertModal('cert2')">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Cisco_logo_blue_2016.svg" alt="Oracle Badge">
+							<h3>CISCO Networking</h3>
+						</div>
+						<div id="cert2" class="modal">
+							<div class="modal-content">
+								<span class="close" onclick="closeCertModal('cert2')">&times;</span>
+								<h2>CISCO Networking</h2>
+								<img src="/imgs/ccna.png" alt="OCI CERT" style="width: 100%; border-radius: 8px; margin-top: 1rem;">
+								<p>Issued by CISCO in March & May 2023</p>
+								<a href="https://example.com/verify" target="_blank">Verify Credential</a>
+							</div>
+						</div>
+					</div>
+					
 				</div>
 				
 
@@ -195,6 +226,7 @@
 	<script src="/SPLATS/anime.min.js"></script>
 	<script src="/SPLATS/demo.js"></script>
 	<script src="/SPLATS/main.js"></script>
+	<script src="cert.js"></script>
 
 
   
