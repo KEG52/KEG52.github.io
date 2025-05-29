@@ -283,5 +283,11 @@
      });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll('.modal').forEach(modal => {
+    modal.style.display = 'none';
+  });
+});
+
     
 }
