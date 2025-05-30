@@ -231,7 +231,7 @@ body.fade-out {
   margin-bottom: 10px;
 }
 
-{/* Modal Styling */
+/* Modals  */
 .modal {
   display: none;
   position: fixed;
@@ -246,8 +246,8 @@ body.fade-out {
   background: white;
   margin: 10% auto;
   padding: 2rem;
-  width: 80%;
-  max-width: 500px;
+  width: 100%;
+  max-width: 650px;
   border-radius: 10px;
   transform: scale(0.8);
   opacity: 0;
@@ -261,7 +261,8 @@ body.fade-out {
 }
 
 .modal-content img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   border-radius: 8px;
   margin-top: 1rem;
 }
@@ -276,5 +277,34 @@ body.fade-out {
 .modal-content a:hover {
   text-decoration: underline;
 }
-}
 
+.overlay {
+  border-radius: 8px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+  opacity: 0;
+  transition: .5s ease;
+  backdrop-filter: blur(2px);
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.text {
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

@@ -273,6 +273,7 @@
 
 
 
+
 // Optional: click background to close
     window.addEventListener('click', function (event) {
         const modals = document.querySelectorAll('.modal');
