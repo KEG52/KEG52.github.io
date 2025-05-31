@@ -221,6 +221,7 @@ body.fade-out {
   margin: 1rem;
   transition: transform 0.3s ease;
 }
+
 .cert-card:hover {
   transform: scale(1.05);
 }
@@ -230,6 +231,8 @@ body.fade-out {
   height: auto;
   margin-bottom: 10px;
 }
+
+
 
 /* Modals  */
 .modal {
@@ -308,3 +311,4 @@ body.fade-out {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
