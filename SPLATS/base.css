@@ -166,6 +166,16 @@ main {
   display: block;
   padding: 2rem;
   text-align: left;
+  display: none;
+}
+
+.content__inner.is-active {
+	pointer-events: auto;
+}
+
+.content__inner.is-visible {
+  display: block;
+  opacity: 1;
 }
 
 
@@ -459,5 +469,7 @@ main {
 	}
 	.content__inner {
 		height: auto;
+		pointer-events: none;
 	}
+
 }
