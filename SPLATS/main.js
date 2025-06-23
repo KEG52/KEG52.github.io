@@ -115,7 +115,7 @@ window.Blob = Blob;
 
 const DOM = {};
 let blobs = [];
-const blobMapping = { 0: 2, 1: 5, 2: 4, 3: 1 };
+const blobMapping = { 0: 0, 1: 1, 2: 2, 3: 3, 4: 4 };
 DOM.svg = document.querySelector('svg.scene');
 Array.from(DOM.svg.querySelectorAll('g')).forEach(el => {
     const blob = new Blob(el);
